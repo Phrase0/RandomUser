@@ -14,6 +14,8 @@
 		F802B6FC2926763300558D1A /* RandomUser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F802B6FA2926763300558D1A /* RandomUser.xcdatamodeld */; };
 		F802B6FE2926763300558D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F802B6FD2926763300558D1A /* Assets.xcassets */; };
 		F802B7012926763300558D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F802B6FF2926763300558D1A /* LaunchScreen.storyboard */; };
+		F802B709292677E500558D1A /* WhiteNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F802B708292677E500558D1A /* WhiteNavigationController.swift */; };
+		F890EB0E2937583100DCFC23 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890EB0D2937583100DCFC23 /* InfoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F802B6FD2926763300558D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F802B7002926763300558D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F802B7022926763300558D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F802B708292677E500558D1A /* WhiteNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNavigationController.swift; sourceTree = "<group>"; };
+		F890EB0D2937583100DCFC23 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				F802B6F32926763300558D1A /* SceneDelegate.swift */,
 				F802B6F52926763300558D1A /* ViewController.swift */,
 				F802B6F72926763300558D1A /* Main.storyboard */,
+				F890EB0D2937583100DCFC23 /* InfoTableViewController.swift */,
+				F802B708292677E500558D1A /* WhiteNavigationController.swift */,
 				F802B6FD2926763300558D1A /* Assets.xcassets */,
 				F802B6FF2926763300558D1A /* LaunchScreen.storyboard */,
 				F802B7022926763300558D1A /* Info.plist */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F802B709292677E500558D1A /* WhiteNavigationController.swift in Sources */,
 				F802B6F62926763300558D1A /* ViewController.swift in Sources */,
 				F802B6F22926763300558D1A /* AppDelegate.swift in Sources */,
+				F890EB0E2937583100DCFC23 /* InfoTableViewController.swift in Sources */,
 				F802B6F42926763300558D1A /* SceneDelegate.swift in Sources */,
 				F802B6FC2926763300558D1A /* RandomUser.xcdatamodeld in Sources */,
 			);
